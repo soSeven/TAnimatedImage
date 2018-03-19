@@ -13,6 +13,10 @@
 		4E36F77E20591AC9007695DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E36F77D20591AC9007695DB /* Assets.xcassets */; };
 		4E36F78120591AC9007695DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E36F77F20591AC9007695DB /* LaunchScreen.storyboard */; };
 		4E36F78420591AC9007695DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E36F78320591AC9007695DB /* main.m */; };
+		4E36F78D20591B0A007695DB /* TAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E36F78C20591B0A007695DB /* TAnimatedImage.m */; };
+		4E3A3A33205B5CFB005D7A19 /* TAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A3A32205B5CFB005D7A19 /* TAnimatedImageView.m */; };
+		4E3A3A35205B9608005D7A19 /* rock.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4E3A3A34205B9608005D7A19 /* rock.gif */; };
+		4E4D7A8A205A01B400D01A96 /* TWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D7A89205A01B400D01A96 /* TWeakProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		4E36F78020591AC9007695DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E36F78220591AC9007695DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E36F78320591AC9007695DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E36F78B20591B0A007695DB /* TAnimatedImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAnimatedImage.h; sourceTree = "<group>"; };
+		4E36F78C20591B0A007695DB /* TAnimatedImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAnimatedImage.m; sourceTree = "<group>"; };
+		4E3A3A31205B5CFB005D7A19 /* TAnimatedImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAnimatedImageView.h; sourceTree = "<group>"; };
+		4E3A3A32205B5CFB005D7A19 /* TAnimatedImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAnimatedImageView.m; sourceTree = "<group>"; };
+		4E3A3A34205B9608005D7A19 /* rock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rock.gif; sourceTree = "<group>"; };
+		4E4D7A88205A01B400D01A96 /* TWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWeakProxy.h; sourceTree = "<group>"; };
+		4E4D7A89205A01B400D01A96 /* TWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWeakProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +69,9 @@
 		4E36F77320591AC9007695DB /* TAnimatedImage */ = {
 			isa = PBXGroup;
 			children = (
+				4E36F78A20591AD5007695DB /* TAnimatedImage */,
 				4E36F77420591AC9007695DB /* AppDelegate.h */,
+				4E3A3A34205B9608005D7A19 /* rock.gif */,
 				4E36F77520591AC9007695DB /* AppDelegate.m */,
 				4E36F77720591AC9007695DB /* ViewController.h */,
 				4E36F77820591AC9007695DB /* ViewController.m */,
@@ -67,6 +80,19 @@
 				4E36F77F20591AC9007695DB /* LaunchScreen.storyboard */,
 				4E36F78220591AC9007695DB /* Info.plist */,
 				4E36F78320591AC9007695DB /* main.m */,
+			);
+			path = TAnimatedImage;
+			sourceTree = "<group>";
+		};
+		4E36F78A20591AD5007695DB /* TAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				4E4D7A88205A01B400D01A96 /* TWeakProxy.h */,
+				4E4D7A89205A01B400D01A96 /* TWeakProxy.m */,
+				4E36F78B20591B0A007695DB /* TAnimatedImage.h */,
+				4E36F78C20591B0A007695DB /* TAnimatedImage.m */,
+				4E3A3A31205B5CFB005D7A19 /* TAnimatedImageView.h */,
+				4E3A3A32205B5CFB005D7A19 /* TAnimatedImageView.m */,
 			);
 			path = TAnimatedImage;
 			sourceTree = "<group>";
@@ -132,6 +158,7 @@
 				4E36F78120591AC9007695DB /* LaunchScreen.storyboard in Resources */,
 				4E36F77E20591AC9007695DB /* Assets.xcassets in Resources */,
 				4E36F77C20591AC9007695DB /* Main.storyboard in Resources */,
+				4E3A3A35205B9608005D7A19 /* rock.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +170,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E36F77920591AC9007695DB /* ViewController.m in Sources */,
+				4E36F78D20591B0A007695DB /* TAnimatedImage.m in Sources */,
+				4E3A3A33205B5CFB005D7A19 /* TAnimatedImageView.m in Sources */,
+				4E4D7A8A205A01B400D01A96 /* TWeakProxy.m in Sources */,
 				4E36F78420591AC9007695DB /* main.m in Sources */,
 				4E36F77620591AC9007695DB /* AppDelegate.m in Sources */,
 			);
