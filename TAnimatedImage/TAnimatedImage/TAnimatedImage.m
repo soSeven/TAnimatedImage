@@ -52,7 +52,7 @@ typedef NS_ENUM(NSUInteger, TAnimatedImageFrameCacheSize) {
 
 @property (nonatomic, assign) NSUInteger memoryWarningCount; // 内存警告次数
 
-@property (nonatomic, strong, readonly) dispatch_queue_t serialQueue; // 加载帧图片对列
+@property (nonatomic, strong, readonly) dispatch_queue_t serialQueue; // 加载帧图片队列
 
 @property (nonatomic, strong, readonly) __attribute__((NSObject)) CGImageSourceRef imageSource; // 图片源数据
 
